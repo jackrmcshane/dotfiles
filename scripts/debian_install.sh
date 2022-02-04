@@ -67,12 +67,13 @@ cd ~/autojump
 cd ~/dotfiles
 rm -rf ~/autojump
 
-#sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 cd ~/dotfiles
 
 # copy all .*rc files to proper locations
 # use links
 
 
-# cd ~
 # rm -rf dotfiles
+clear
+pwd
