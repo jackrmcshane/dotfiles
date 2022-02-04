@@ -108,6 +108,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 source ~/.bash_aliases
+setxkbmap -option "caps:escape"
 
 # enabling autojump
 [[ -s /home/asimov/.autojump/etc/profile.d/autojump.sh ]] && source /home/asimov/.autojump/etc/profile.d/autojump.sh

@@ -72,6 +72,9 @@ cd ~/dotfiles
 
 # copy all .*rc files to proper locations
 # use links
+rm ~/.zshrc
+cp zsh/.zshrc ~
+cp zsh/.bash_aliases ~
 
 
 # rm -rf dotfiles
