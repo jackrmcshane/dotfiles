@@ -1,5 +1,12 @@
 #!/bin/sh
 
+
+# what i want this script to accomplish:
+# - setup nvim
+# - setup tmux
+# - setup zsh
+# - setup dwm?
+
 echo '[*] Installing basics...'
 sudo apt update
 sudo apt install -y curl git
@@ -61,3 +68,11 @@ cd ~/dotfiles
 rm -rf ~/autojump
 
 #sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+cd ~/dotfiles
+
+# copy all .*rc files to proper locations
+# use links
+
+
+# cd ~
+# rm -rf dotfiles
