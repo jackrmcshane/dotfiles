@@ -1,6 +1,6 @@
 # vim: filetype=sh
 alias cac="cd /home/asimov/.cache && ls -a" \
-cf="cd /home/asimov/.config && ls -a" \
+cfg="cd /home/asimov/.config && ls -a" \
 D="cd /home/asimov/Downloads && ls -a" \
 d="cd /home/asimov/Documents && ls -a" \
 dt="cd /home/asimov/.local/share && ls -a" \
