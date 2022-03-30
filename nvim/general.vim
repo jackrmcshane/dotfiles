@@ -1,14 +1,12 @@
 
-color gruvbox
-
 "make new windows split right and down
 set splitbelow splitright
 "make popup menu smaller
-set pumheight=10
+"set pumheight=10
 "turn off line wrap
 set nowrap
 "treat dash separated words as a word text object
-set iskeyword+=-
+"set iskeyword+=-
 " turn off highlight search
 set nohlsearch
 " disables automatic commenting on newlines
